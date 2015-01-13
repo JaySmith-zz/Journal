@@ -22,9 +22,6 @@ namespace Journal.Windows
 		[STAThread]
 		private static void Main(string[] args)
 		{
-			var app = new JournalApplication();
-			app.Test();
-			
 			Application.EnableVisualStyles();
 			Application.SetCompatibleTextRenderingDefault(false);
 			Application.Run(new MainForm());
